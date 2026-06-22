@@ -225,7 +225,7 @@ export function MaintainersPage({ onNavigate }: MaintainersPageProps) {
     setActiveTab('Issues');
   };
 
-  const handleNavigateToPR = (prId: string) => {
+  const handleNavigateToPR = (_prId: string) => {
     // For now, route users to the Pull Requests tab. We may add a focused PR view later.
     setActiveTab('Pull Requests');
   };

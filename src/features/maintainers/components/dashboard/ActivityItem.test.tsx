@@ -1,8 +1,6 @@
-import React from 'react';
 import { render, fireEvent } from '@testing-library/react';
 import { describe, it, vi, expect } from 'vitest';
 import { ActivityItem } from './ActivityItem';
-import { useTheme } from '../../../../shared/contexts/ThemeContext';
 
 // Mock theme hook to avoid needing full provider
 vi.mock('../../../../shared/contexts/ThemeContext', () => ({

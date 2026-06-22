@@ -527,7 +527,7 @@ export function EcosystemDetailPage({ ecosystemId, ecosystemName, initialDescrip
                     {ecosystemData.technologies.map((tech, idx) => (
                       <li key={idx} className="flex gap-2 md:gap-3">
                         <span className={`mt-0.5 md:mt-1 flex-shrink-0 ${isDark ? 'text-[#c9983a]' : 'text-[#a67c2a]'}`}>•</span>
-                        <span className={`text-[12px] md:text-[14px] ${isDark ? 'text-[#d4d4d4]' : 'text-[#7b5a]'}'}>
+                        <span className={`text-[12px] md:text-[14px] ${isDark ? 'text-[#d4d4d4]' : 'text-[#7a6b5a]'}`}>
                           {tech}
                         </span>
                       </li>
@@ -646,5 +646,6 @@ export function EcosystemDetailPage({ ecosystemId, ecosystemName, initialDescrip
         </div>
       </div>
     </div>
+      </div>
   );
 }

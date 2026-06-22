@@ -42,7 +42,7 @@ export function DashboardTab({ selectedProjects, isLoadingProjects = false, onNa
    */
   const getActivityClickHandler = (activity: Activity) => {
     if (activity.type === 'issue' && activity.projectId && onNavigateToIssue) {
-      return () => onNavigateToIssue(activity.id.toString(), activity.projectId);
+      return () => onNavigateToIssue(activity.id.toString(), activity.projectId!);
     }
 
     if (activity.type === 'pr' && onNavigateToPR) {

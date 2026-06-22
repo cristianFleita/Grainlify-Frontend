@@ -106,7 +106,7 @@ export function IssueDetailPage({ issueId, projectId, onClose }: IssueDetailPage
           </div>
         </div>
       ) : error ? (
-        <div role="alert" className={`p-4 rounded-md ${error.notFound ? 'bg-yellow-100 text-yellow-800' : 'bg-red-100 text-red-800'}`)}>
+        <div role="alert" className={`p-4 rounded-md ${error.notFound ? 'bg-yellow-100 text-yellow-800' : 'bg-red-100 text-red-800'}`}>
           <p className="mb-2">{error.message}</p>
           <button
             onClick={() => {

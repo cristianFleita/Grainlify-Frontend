@@ -19,7 +19,7 @@ import { API_BASE_URL } from '../config/api';
 
 // Mock fetch globally
 const mockFetch = vi.fn();
-global.fetch = mockFetch;
+globalThis.fetch = mockFetch;
 
 // Mock localStorage
 const localStorageMock = (() => {

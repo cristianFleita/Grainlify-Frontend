@@ -1,5 +1,4 @@
 import { logger } from '../../../shared/utils/logger';
-import { useCallback } from 'react';
 import { createContext, useContext, useEffect, useMemo, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { ExternalLink, Copy, Circle, ArrowLeft, GitPullRequest } from 'lucide-react';
